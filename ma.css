@@ -1,0 +1,242 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+
+body
+{
+font-family: 'Lato', sans-serif;
+font-weight: 400;
+margin: 0;
+padding: 0;
+color: #555;
+margin-top: 30px;
+}
+
+ul
+{
+  list-style-type: none;
+  padding-top: 53px;
+}
+
+.content
+{
+  clear: both;
+  margin:20px 20px;
+  border-top: 3px solid #eee;
+  padding-top: 20px;
+}
+
+.container
+{
+  background: white;
+  margin: 0 auto;
+  width: 80%;
+  /*border: 1px solid black;*/
+  padding: 0 30px 30px 30px;
+  /*height: 100%;*/
+}
+
+.leftcolumn, .rightcolumn
+{
+width: 50%;
+/*padding-left: 23px;*/
+float: left;
+/*height: 200px;*/
+}
+
+footer
+{
+  clear:both;
+  background: #333;
+  color: white;
+  margin: 10px 0;
+  padding: 10px;
+  height: 100px;
+}
+
+header
+{
+  margin: 10px;
+  padding: 10px;
+  padding-bottom: 34px;
+  margin-bottom: 82px;
+  padding-top: 0;
+}
+
+.slideshow
+{
+text-align: center;
+height: 370px;
+margin: 0;
+background: #eee;
+background: #eee;
+padding-bottom: 25px;
+}
+
+nav li
+{
+float: left;
+}
+a
+{
+text-decoration: none;
+}
+
+header a
+{color: black;}
+
+footer a
+{
+color: white;
+}
+
+.footcol1
+{
+width: 40%;
+text-align: left;
+float: left;
+}
+
+.footcol2
+{
+width: 40%;
+text-align: center;
+float: right;
+}
+
+li a
+{
+  font-weight: 700;
+}
+
+#slideshow {
+    position: relative;
+    width: 100%;
+    height: 100%;
+/*    height: 400px;*/
+}
+
+#slideshow > div {
+    position: absolute;
+    /*top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    */
+}
+
+#slideshow > div > img {
+width: 100%;
+height: 100%;
+}
+
+
+h1, h2
+{font-weight: 700;}
+
+h1
+{
+  font-size: 70px;
+text-transform: uppercase;
+display: inline;
+color: black;
+}
+h2
+{
+font-size: 50px;
+text-transform: uppercase;
+display: inline;
+color: black;
+}
+
+h3
+{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+nav a
+{
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+
+.left
+{
+  float: left;
+}
+
+.right
+{float: right;}
+
+.footnav
+{
+padding-right: 30px;
+font-size: 25px;
+}
+
+.footnav a
+{
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.footnav ul
+{
+  padding-top: 11px;
+}
+
+.footcontact
+{
+font-size: 20px;
+padding:13px 25px;
+font-weight: 300;
+line-height: 36px;
+}
+
+.subheader
+{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.paddingt30
+{
+  padding-top: 30px;
+}
+
+.text
+{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid #666;
+  width: 90%;
+  line-height: 24px;
+}
+
+.partnerimg
+{
+  float: left;
+/*  margin-top: 20px;*/
+padding-left: 10px;
+
+}
+
+.partnerbio
+{
+  float: left;
+  padding-left: 30px;
+  /*margin-top: 20px;*/
+  width: 800px;
+}
+
+.row
+{
+  border-bottom: 2px solid #555;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  height: 450px;
+}
+
+h3 a
+{color: #333;}
