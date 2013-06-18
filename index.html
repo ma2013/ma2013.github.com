@@ -135,14 +135,14 @@
        </div>
 
      </div>
-
+<div class="gradient pad30">
      <div class="leftcolumn" style="min-height: 340px;">
 
       <div class="subheader paddingt30">
         Bespoke CIS Consulting
       </div>
 
-      <div class="text" style="line-height: 22px; font-size: 18px;">
+      <div class="text" style="line-height: 22px; font-size: 16px;">
         Macro-Advisory provides a bespoke consulting service for investors and companies who want to better understand the opportunities and risks in making investments and conducting business in Russia and Central Asia...<br><br>
         ...Russia and the Central Asian states can be challenging locations for foreign investors while often misleading perceptions about what is really happening in each country can prevent investors from sharing in the steady growth of the world's xxth largest economy and the fifth largest consumer market. The founding partners of Macro-Advisory have a combined thirty-five years' experience living and working in Russia and Central Asia and that ideally places them to help guide investors away from risk and towards growth and profit
         <br><br>
@@ -164,7 +164,6 @@
           Russian Federation<br>
         </h3>
       </div>
-    </div>
 
     <div class="rightcolumn">
 
@@ -172,11 +171,11 @@
         Despite the 'Noise', Russian's Wealth is Increasing *
       </div>
 <div class="graph_container">
-<div class="caption">Graph</div>
+<div class="caption">GDP, % YoY</div>
 <div id="line_graph" style="height: 250px;"></div>
 </div>
 <div class="graph_container">
-  <div class="caption">Graph</div>
+  <div class="caption">GDP P/Cap US$</div>
 <div id="bar_graph" style="height: 250px;"></div>
 </div>
 
@@ -184,7 +183,8 @@
         <div style="font-size: 12px; margin-bottom: 14px;"><b>*Source:</b> Historic - Federal Statistics Service, 2013 Forecast - Sberbank Investment Research
         </div>
       </div>
-    </div>
+    </div></div>    </div>
+
         <footer>
           <div class="section group">
 
@@ -256,11 +256,20 @@ new Morris.Line({
   // Chart data records -- each entry in this array corresponds to a point on
   // the chart.
   data: [
-    { year: '2008', value: 20 },
-    { year: '2009', value: 10 },
-    { year: '2010', value: 5 },
-    { year: '2011', value: 5 },
-    { year: '2012', value: 20 }
+    { year: '2000', value: '10.0%' },
+    { year: '2001', value: '5.1%' },
+    { year: '2002', value: '4.7%' },
+    { year: '2003', value: '7.3%' },
+    { year: '2004', value: '7.1%' },
+    { year: '2005', value: '6.4%' },
+    { year: '2006', value: '8.2%' },
+    { year: '2007', value: '8.5%' },
+    { year: '2008', value: '5.2%' },
+    { year: '2009', value: '-7.8%' },
+    { year: '2010', value: '4.5%' },
+    { year: '2011', value: '4.3%' },
+    { year: '2012', value: '3.4%' },
+    { year: '2013', value: '3.1%' }
   ],
   // The name of the data record attribute that contains x-values.
   xkey: 'year',
@@ -268,7 +277,7 @@ new Morris.Line({
   ykeys: ['value'],
   // Labels for the ykeys -- will be displayed when you hover over the
   // chart.
-  labels: ['Value'],
+  labels: ['% YoY'],
   lineColors: ['#46927c'],
   pointFillColors: ['#46927c']
 });
@@ -276,23 +285,38 @@ new Morris.Line({
 </script>
 
 <script>
-
-new Morris.Bar({
+// Use Morris.Bar
+Morris.Bar({
   element: 'bar_graph',
   data: [
-    {x: '2011 Q1', y: 0},
-    {x: '2011 Q2', y: 1},
-    {x: '2011 Q3', y: 2},
-    {x: '2011 Q4', y: 3},
-    {x: '2012 Q1', y: 4},
-    {x: '2012 Q2', y: 5},
-    {x: '2012 Q3', y: 6},
-    {x: '2012 Q4', y: 7},
-    {x: '2013 Q1', y: 8}
+    {x: '2000', y: '1,725'},
+    {x: '2001', y: '2,140'},
+    {x: '2002', y: '2,445'},
+    {x: '2003', y: '2,992'},
+    {x: '2004', y: '4,042'},
+    {x: '2005', y: '5,314'},
+    {x: '2006', y: '6,914'},
+    {x: '2007', y: '9,092'},
+    {x: '2008', y: '11,690'},
+    {x: '2009', y: '8,592'},
+    {x: '2010', y: '10,408'},
+    {x: '2011', y: '13,021'},
+    {x: '2012', y: '14,176'},
+    {x: '2013', y: '14,930'}
   ],
   xkey: 'x',
   ykeys: ['y'],
-  labels: ['Y']
+  labels: ['$'],
+  barColors: function (row, series, type) {
+    if (type === 'bar') {
+      var red = Math.ceil(255 * row.y / this.ymax);
+      return 'rgb(' + red + ',0,0)';
+    }
+    else {
+      return '#000';
+    }
+  }
+});
 </script>
 
 
