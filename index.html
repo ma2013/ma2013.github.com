@@ -1,29 +1,82 @@
 <!DOCTYPE html>
-<html>
+<!-- HTML5 Mobile Boilerplate -->
+<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 
-  <head>
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
-    <title></title>
+<head>
 
-    <link rel="stylesheet" type="text/css" href="ma.css" media="screen" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script src="main.js"></script>
-  </head>
+  <meta charset="utf-8">
+  <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <body>
+  <title>Example of the Responsive Grid System</title>
+  <meta name="description" content="This is the Responsive Grid System, a quick, easy and flexible way to create a responsive web site.">
+  <meta name="keywords" content="responsive, grid, system, web design">
 
-    <div class="container">
+  <meta name="author" content="www.grahamrobertsonmiller.co.uk">
 
-    <header>
-      <div class="left">
+  <meta http-equiv="cleartype" content="on">
 
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!-- Responsive and mobile friendly stuff -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/html5reset.css" media="all">
+  <link rel="stylesheet" href="css/responsivegridsystem.css" media="all">
+  <link rel="stylesheet" href="css/col.css" media="all">
+  <link rel="stylesheet" href="css/2cols.css" media="all">
+  <link rel="stylesheet" href="css/3cols.css" media="all">
+  <link rel="stylesheet" href="css/4cols.css" media="all">
+  <link rel="stylesheet" href="css/5cols.css" media="all">
+  <link rel="stylesheet" href="css/6cols.css" media="all">
+  <link rel="stylesheet" href="css/7cols.css" media="all">
+  <link rel="stylesheet" href="css/8cols.css" media="all">
+  <link rel="stylesheet" href="css/9cols.css" media="all">
+  <link rel="stylesheet" href="css/10cols.css" media="all">
+  <link rel="stylesheet" href="css/11cols.css" media="all">
+  <link rel="stylesheet" href="css/12cols.css" media="all">
+
+
+  <!-- Responsive Stylesheets -->
+  <link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="css/1024.css">
+  <link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="css/768.css">
+  <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/480.css">
+
+
+  <link rel="stylesheet" href="css/morris.css" media="all">
+
+  <!--ma stylesheet-->
+  <link rel="stylesheet" href="css/ma.css" media="all">
+
+  <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements and feature detects -->
+  <script src="js/modernizr-2.5.3-min.js"></script>
+</head>
+
+<body>
+
+
+
+<!--     <header>
+      <div class="section group">
+        <div class="col span_5_of_8">
     <a href="index.html"><h1>macro advisory</h1>
       <br>
-      <div style="font-style:100; font-size: 16px; padding-left: 3px;">
+        <div style="font-style:100; font-size: 16px; padding-left: 3px;">
       Bespoke Russia-CIS Consulting</a>
      </div>
-     </div>
-     <div class="right">
+    </div>
+
+     <div class="col span_3_of_8">
       <nav>
 <ul>
   <li>
@@ -37,86 +90,212 @@
   </li>
 </ul>
 </nav>
-</div></header>
+</div>
+  </div>
+</header> -->
+
+
+<div id="maincontentcontainer">
+  <div id="maincontent">
+    <header>
+      <div class="section group">
+        <div class="col span_1_of_2">
+
+          <a href="index.html"><img src="img/logo.png">
+            </a>
+          </div>
+          <div class="col span_1_of_2">
+            <nav>
+              <ul>
+                <li>
+                  <a href="index.html">HOME</a>
+                </li>
+                <li>
+                  <a href="about.html">ABOUT</a>
+                </li>
+                <li>
+                  <a href="contact.html">CONTACT US</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+          <div class="margintop30">
 
     <div class="content">
-<div class="slideshow">
-<div id="slideshow">
-   <div style="background: url('img/golfcourse.jpg')no-repeat center center fixed;width:100%;height:100%;-webkit-background-size: cover;">
-     heloohlooohds;iouashpiuachcapiuhapiuahpiuahpaouhdou
-   </div>
+      <div class="slideshow">
+
+        <div id="slideshow">
+
+         <div style="background: url('img/golfcourse.jpg')no-repeat center center;width:100%;height:100%;-webkit-background-size: cover;">
+           heloohlooohds;iouashpiuachcapiuhapiuahpiuahpaouhdou
+         </div>
+
+       </div>
+
+     </div>
+
+     <div class="leftcolumn" style="min-height: 340px;">
+
+      <div class="subheader paddingt30">
+        Bespoke CIS Consulting
+      </div>
+
+      <div class="text" style="line-height: 22px; font-size: 18px;">
+        Macro-Advisory provides a bespoke consulting service for investors and companies who want to better understand the opportunities and risks in making investments and conducting business in Russia and Central Asia...<br><br>
+        ...Russia and the Central Asian states can be challenging locations for foreign investors while often misleading perceptions about what is really happening in each country can prevent investors from sharing in the steady growth of the world's xxth largest economy and the fifth largest consumer market. The founding partners of Macro-Advisory have a combined thirty-five years' experience living and working in Russia and Central Asia and that ideally places them to help guide investors away from risk and towards growth and profit
+        <br><br>
+        ... Macro-Advisory's client base will include macro hedge funds, venture capital funds, international corporations and private investment groups who will benefit from either a fully bespoke consulting service or from the partner’s insights published in regular, subscription only, private reports...
+        <br><br>
+        ...for more information refer to the <a href="contact.html"><b>Contact Us</b></a> page.
+      </div>
+
+      <h3>
+        <div style="font-weight: 400;">
+          info@macro-advisory.com<br>
+          +7 916 349 2039<br>
+        </div>
+
+        <div style="font-weight: 300; line-height: 28px;">
+          Myasnitskaya 24/7<br>
+          Dom 3-4/4<br>
+          Moscow 10100<br>
+          Russian Federation<br>
+        </h3>
+      </div>
+    </div>
+
+    <div class="rightcolumn">
+
+      <div class="subheader paddingt30">
+        Despite the 'Noise', Russian's Wealth is Increasing *
+      </div>
+<div class="graph_container">
+<div class="caption">Graph</div>
+<div id="line_graph" style="height: 250px;"></div>
 </div>
+<div class="graph_container">
+  <div class="caption">Graph</div>
+<div id="bar_graph" style="height: 250px;"></div>
 </div>
-<div class="leftcolumn" style="min-height: 340px;">
-<div class="subheader paddingt30">
-    Bespoke CIS Consulting
-</div>
-  <div class="text" style="line-height: 22px; font-size: 18px;">
-Macro-Advisory provides a bespoke consulting service for investors and companies who want to better understand the opportunities and risks in making investments and conducting business in Russia and Central Asia...<br><br>
-...Russia and the Central Asian states can be challenging locations for foreign investors while often misleading perceptions about what is really happening in each country can prevent investors from sharing in the steady growth of the world's xxth largest economy and the fifth largest consumer market. The founding partners of Macro-Advisory have a combined thirty-five years' experience living and working in Russia and Central Asia and that ideally places them to help guide investors away from risk and towards growth and profit
-<br><br>
-... Macro-Advisory's client base will include macro hedge funds, venture capital funds, international corporations and private investment groups who will benefit from either a fully bespoke consulting service or from the partner’s insights published in regular, subscription only, private reports...
-<br><br>
-...for more information refer to the <a href="contact.html"><b>Contact</b></a> page.
+
+      <div class="text">
+        <div style="font-size: 12px; margin-bottom: 14px;"><b>*Source:</b> Historic - Federal Statistics Service, 2013 Forecast - Sberbank Investment Research
+        </div>
+      </div>
+    </div>
+        <footer>
+          <div class="section group">
+
+            <div class="col span_1_of_2">
+
+
+
+              <div class="left footcontact">
+
+
+                <a href="mailto:info@macro-advisory.com">
+                  info@macro-advisory.com</a>
+                  <br />
+                  + 7 916 349 2039
+                </div>
+              </div>
+              <div class="col span_1_of_2">
+                <div class="right">
+                  <nav>
+                    <div class="footnav">
+                      <ul>
+                        <li>
+                          <a href="index.html">HOME</a>
+                        </li>
+                        <li>
+                          <a href="about.html">ABOUT</a>
+                        </li>
+                        <li>
+                          <a href="contact.html">CONTACT US</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+
+    </div>
   </div>
-  <h3>
-  <div style="font-weight: 400;">
-  info@macro-advisory.com<br>
-  +7 916 349 2039<br>
-  </div>
-  <div style="font-weight: 300; line-height: 28px;">
-  Myasnitskaya 24/7<br>
-  Dom 3-4/4<br>
-  Moscow 10100<br>
-  Russian Federation<br>
-  </h3>
-  </div>
-
-  <div class="rightcolumn">
-    <div class="subheader paddingt30">
-Despite the 'Noise', Russian's Wealth is Increasing *
-    </div>
-    <div class="text">
-<img style="width:100%;margin-top:6px;" src="img/chart.jpg">
-<br>
-<br>
-<div style="font-size: 12px; margin-bottom: 14px;"><b>Source:</b> Historic - Federal Statistics Service, 2013 Forecast - Sberbank Investment Research
-    </div>
-  </div>
-</div>
-<footer>
-<div class="left footcontact">
 
 
-<a href="mailto:info@macro-advisory.com">
-info@macro-advisory.com</a>
-<br />
-+ 7 916 349 2039
-</div>
-<div class="right">
-<nav>
-  <div class="footnav">
-<ul>
-<li>
-<a href="index.html">HOME</a>
-</li>
-<li>
-<a href="about.html">ABOUT</a>
-</li>
-<li>
-<a href="contact.html">CONTACT</a>
-</li>
-</ul>
-</div>
-</nav>
-</div>
-</footer>
+  <!-- JavaScript at the bottom for fast page loading -->
 
-    </div>
-    </div>
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
 
-    </div>
-    </div>
-  </body>
+  <script src="js/main.js"></script>
+  <script src="js/raphael-min.js"></script>
+  <script src="js/morris.js"></script>
+
+
+  <!--[if (lt IE 9) & (!IEMobile)]>
+  <script src="js/selectivizr-min.js"></script>
+  <![endif]-->
+
+
+  <!-- More Scripts-->
+  <script src="js/responsivegridsystem.js"></script>
+
+<script>
+
+new Morris.Line({
+  // ID of the element in which to draw the chart.
+  element: 'line_graph',
+  // Chart data records -- each entry in this array corresponds to a point on
+  // the chart.
+  data: [
+    { year: '2008', value: 20 },
+    { year: '2009', value: 10 },
+    { year: '2010', value: 5 },
+    { year: '2011', value: 5 },
+    { year: '2012', value: 20 }
+  ],
+  // The name of the data record attribute that contains x-values.
+  xkey: 'year',
+  // A list of names of data record attributes that contain y-values.
+  ykeys: ['value'],
+  // Labels for the ykeys -- will be displayed when you hover over the
+  // chart.
+  labels: ['Value'],
+  lineColors: ['#46927c'],
+  pointFillColors: ['#46927c']
+});
+
+</script>
+
+<script>
+
+new Morris.Bar({
+  element: 'bar_graph',
+  data: [
+    {x: '2011 Q1', y: 0},
+    {x: '2011 Q2', y: 1},
+    {x: '2011 Q3', y: 2},
+    {x: '2011 Q4', y: 3},
+    {x: '2012 Q1', y: 4},
+    {x: '2012 Q2', y: 5},
+    {x: '2012 Q3', y: 6},
+    {x: '2012 Q4', y: 7},
+    {x: '2013 Q1', y: 8}
+  ],
+  xkey: 'x',
+  ykeys: ['y'],
+  labels: ['Y']
+</script>
+
+
+</body>
 
 </html>
