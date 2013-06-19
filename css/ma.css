@@ -8,7 +8,7 @@ body
   margin: 0;
   padding: 0;
   color: #555;
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: left;
   /*background: whitesmoke;*/
   background: #dddddc;
@@ -17,7 +17,7 @@ body
 ul
 {
   list-style-type: none;
-  padding-top: 32px;
+  padding-top: 29px;
 }
 
 .content
@@ -25,7 +25,7 @@ ul
   clear: both;
   /*margin:0 20px;*/
   /*border-top: 3px solid #eee;*/
-  padding-top: 20px;
+  /*padding-top: 20px;*/
 }
 
 .container
@@ -70,10 +70,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b3b3c', end
 
 header
 {
-/*  margin: 10px;
-  padding: 10px;
-  */  padding-top: 0;
-  /*border-bottom: 3px solid #eee;*/
+border-bottom: 1px solid rgb(194, 194, 194);
+  padding: 0 0 3px 0;
 }
 
 .slideshow
@@ -232,7 +230,7 @@ li a
 
   .paddingt30
   {
-    padding-top: 30px;
+    /*padding-top: 30px;*/
   }
 
   .text
@@ -248,7 +246,8 @@ li a
   .partnerimg
   {
     float: left;
-    /*  margin-top: 20px;*/
+      /*padding-top: 20px;*/
+      padding-top: 65px;
     padding-left: 10px;
 
   }
@@ -373,7 +372,7 @@ li a
 
       .partnerimg img
       {
-        padding:  0px 0px 25px 57px;
+        padding:  0 0px 25px 57px;
       }
 
       .partnerbio
@@ -405,7 +404,7 @@ background: -o-linear-gradient(top,  rgba(245,245,245,1) 0%,rgba(171,171,171,1) 
 background: -ms-linear-gradient(top,  rgba(245,245,245,1) 0%,rgba(171,171,171,1) 100%); /* IE10+ */
 background: linear-gradient(to bottom,  rgba(245,245,245,1) 0%,rgba(171,171,171,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#ababab',GradientType=0 ); /* IE6-8 */
-    min-height: 700px;
+    /*min-height: 700px;*/
     }
 
     header nav ul li a
@@ -438,6 +437,12 @@ rect[Attributes Style] {
 fill: #0b62a4;
 stroke: #000000;
 stroke-width: 0px;
+}
+
+.span_1_of_2
+{
+  padding-top: 0;
+  margin-top: 0;
 }
 
 
