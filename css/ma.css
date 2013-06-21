@@ -96,12 +96,13 @@ border-bottom: 1px solid rgb(194, 194, 194);
 {
   text-align: center;
   /*height: 370px;*/
-  height: 203px;
+  height: 300px;
   margin: 0;
   background: #eee;
   background: #eee;
   /*padding-bottom: 25px;*/
-  padding: 23px 0;
+  padding: 23px 0 0 0;
+  overflow: hidden;
 }
 
 nav li
@@ -201,7 +202,7 @@ li a
   {
     font-size: 19px;
     /*margin-left: 30px;*/
-    padding-left: 10px;
+    /*padding-left: 10px;*/
     text-decoration: none;
     text-align: right;
   }
@@ -456,12 +457,29 @@ p
   margin-top: -5px !important;
 }
 
+#slideshow
+{
+  padding-left: 8px;
+}
+
+.slideshow
+{
+  height: 205px;
+}
+
+
     }
 
     .margintop30
     {
       /*margin-top: 30px;*/
     }
+
+    .margintop10
+    {
+      margin-top: 10px;
+    }
+
 
 
     .gradient, .about
@@ -514,6 +532,17 @@ height: 5px;
 .caption
 {
   text-align: center;
+  font-size: 18px;
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+
+.headercaption
+{
+  text-align: left;
+  font-size: 18px;
+  /*padding-left: 20px;*/
+  margin-bottom: 14px;
 }
 
 rect[Attributes Style] {
@@ -540,3 +569,26 @@ a img
 
 svg
 {margin-top: -14px;}
+
+.slidecaption
+{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  background:white;
+  padding:10px 0 15px 0;
+  color:#333;
+  /*margin-bottom: 10px;*/
+  opacity: .7;
+}
+
+.slideshowimg
+{
+  width: 100%;
+  height:100%;
+  display: block;}
+
+  #maincontent
+{
+  padding: 1.2em 0;
+}

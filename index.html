@@ -158,23 +158,68 @@
         <div class="slideshow">
 
           <div id="slideshow">
+<div>
+  <div class="headercaption">Hello</div>
+  <img src="img/apartments.jpg" alt="">
+    <div class="slidecaption">hello</div>
+</div>
 
-           <div style="background: url('img/golfcourse.jpg')no-repeat center center;width:100%;height:100%;-webkit-background-size: cover;">
-             heloohlooohds;iouashpiuachcapiuhapiuahpiuahpaouhdou
+<div>
+  <div class="headercaption">Hello</div>
+  <img src="img/apartments.jpg" alt="">
+    <div class="slidecaption">hello</div>
+</div>
+
+<div>
+  <div class="headercaption">Hello</div>
+  <img src="img/apartments.jpg" alt="">
+    <div class="slidecaption">hello</div>
+</div>
+
+<div>
+  <div class="headercaption">Hello</div>
+  <img src="img/apartments.jpg" alt="">
+    <div class="slidecaption">hello</div>
+</div>
+
+<div>
+  <div class="headercaption">Hello</div>
+  <img src="img/apartments.jpg" alt="">
+    <div class="slidecaption">hello</div>
+</div>
+
+<!--
+        <div style="width:500px;height:500px;">hello
+           <div style="background: url('img/apartments.jpg')no-repeat center center;width:100%;height:50px;-webkit-background-size: cover;"><br>
+           </div></div>
+
+           <div style="background: url('img/mega_mall.jpg')no-repeat center center;width:100%;height:100%;-webkit-background-size: cover;-top:200px;">
+           <div class="headercaption">Hello</div>
+           <div class="slidecaption">One of the many new “Mega” Shopping Malls being built in Russia’s cities</div>
+         </div>
+           <div style="background: url('img/moscow_night.jpg')no-repeat center center;width:100%;height:100%;-webkit-background-size: cover;">
+           <div class="slidecaption">Moscow’s Financial Center from across the Moskva River</div></div>
+            <div style="background: url('img/moscow-airport.jpg')no-repeat center center;width:100%;height:100%;-webkit-background-size: cover;">
+            <div class="slidecaption">Hello</div></div>
+            <div style="background: url('img/moscow-day.jpg')no-repeat center center;width:100%;height:100%;-webkit-background-size: cover;">
+           <div class="slidecaption">Hello</div>
            </div>
+           <div style="background: url('img/roads.jpg')no-repeat center center;width:100%;height:100%;-webkit-background-size: cover;">
+          <div class="slidecaption">Hello</div>
+          </div> -->
+
+
 
          </div>
 
-       </div>
-    <div class="subheader paddingt30" style="text-align: center;font-size:18px;">
-                Despite the 'Noise', Russian's Wealth is Increasing *
-              </div>
-       <div class="graph_container">
-                    <div class="caption">GDP P/Cap US$</div>
+       </div><br>
+
+       <div class="graph_container margintop10">
+                    <div class="caption">Despite the 'Noise', Russian's Wealth is Increasing: GDP P/Cap US$*</div>
                     <div id="bar_graph" style="height: 250px;"></div>
                   </div>
          <div class="text introtext">
-                    <div style="font-size: 12px; margin-bottom: 14px;"><b>*Source:</b> Historic - Federal Statistics Service, 2013 Forecast - Sberbank Investment Research
+                    <div style="font-size: 12px; margin-bottom: 3px;padding-left:10%;"><b>*Source:</b> Historic - Federal Statistics Service, 2013 Forecast - Sberbank Investment Research
                     </div>
                   </div>
 
@@ -332,28 +377,29 @@
 Morris.Bar({
   element: 'bar_graph',
   data: [
-  {x: '2000', y: '1,725'},
-  {x: '2001', y: '2,140'},
-  {x: '2002', y: '2,445'},
-  {x: '2003', y: '2,992'},
-  {x: '2004', y: '4,042'},
-  {x: '2005', y: '5,314'},
-  {x: '2006', y: '6,914'},
-  {x: '2007', y: '9,092'},
-  {x: '2008', y: '11,690'},
-  {x: '2009', y: '8,592'},
-  {x: '2010', y: '10,408'},
-  {x: '2011', y: '13,021'},
-  {x: '2012', y: '14,176'},
-  {x: '2013', y: '14,930'}
+  {x: '2000', y: '1725'},
+  {x: '2001', y: '2140'},
+  {x: '2002', y: '2445'},
+  {x: '2003', y: '2992'},
+  {x: '2004', y: '4042'},
+  {x: '2005', y: '5314'},
+  {x: '2006', y: '6914'},
+  {x: '2007', y: '9092'},
+  {x: '2008', y: '11690'},
+  {x: '2009', y: '8592'},
+  {x: '2010', y: '10408'},
+  {x: '2011', y: '13021'},
+  {x: '2012', y: '14176'},
+  {x: '2013', y: '14930'}
   ],
   xkey: 'x',
   ykeys: ['y'],
   labels: ['$'],
   barColors: function (row, series, type) {
     if (type === 'bar') {
-      var red = Math.ceil(255 * row.y / this.ymax);
-      return 'rgb(' + red + ',0,0)';
+      // var blue = Math.ceil(255 * row.y / this.ymax);
+      // return 'rgb(' + blue + ',0,0)';
+            return 'rgb(77,168,212)';
     }
     else {
       return '#000';

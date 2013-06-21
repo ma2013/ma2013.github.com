@@ -23,3 +23,7 @@
 
 .footnav ul li a, header nav a
 {font-size: 13px;}
+
+.slideshow{
+	height: 210px;
+}
