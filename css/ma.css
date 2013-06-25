@@ -98,8 +98,8 @@ border-bottom: 1px solid rgb(194, 194, 194);
   /*height: 370px;*/
   height: 300px;
   margin: 0;
-  background: #eee;
-  background: #eee;
+  /*background: #eee;*/
+  /*background: #eee;*/
   /*padding-bottom: 25px;*/
   padding: 23px 0 0 0;
   overflow: hidden;
@@ -482,7 +482,7 @@ p
 
 
 
-    .gradient, .about
+    .gradient, .about, .content
     {
 /*background: rgb(245,245,245); /* Old browsers */*/
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
