@@ -61,7 +61,7 @@ footer
   margin: 10px 0;
   margin-top: 0;
   padding: 10px 0;
-  min-height: 100px;
+  min-height: 45px;
   width: 100%;
   /*background: rgb(59,59,60); /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -224,22 +224,22 @@ li a
 
   .footnav a
   {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 300;
     text-decoration: none;
   }
 
   .footnav ul
   {
-    padding-top: 36px;
+    padding-top: 15px;
   }
 
   .footcontact
   {
-    font-size: 18px;
+    font-size: 15px;
     padding:13px 25px;
     font-weight: 300;
-    line-height: 36px;
+    line-height: 26px;
   }
 
   .subheader
@@ -399,7 +399,7 @@ li a
       .left
       {
         /*padding-left:61px;*/
-padding-left: 21%;
+padding-left: 11%;
       }
       .footnav ul
       {
@@ -540,8 +540,8 @@ height: 5px;
 .headercaption
 {
   text-align: left;
-  font-size: 18px;
-  /*padding-left: 20px;*/
+  font-size: 17px;
+  line-height: 24px;
   margin-bottom: 14px;
 }
 
@@ -576,7 +576,7 @@ svg
   position:absolute;
   bottom:0;
   background:white;
-  padding:10px 0 15px 0;
+  padding:10px 0 20px 0;
   color:#333;
   /*margin-bottom: 10px;*/
   opacity: .7;
@@ -592,3 +592,9 @@ svg
 {
   padding: 1.2em 0;
 }
+
+.mb20
+{
+margin-bottom: 20px;
+}
+
