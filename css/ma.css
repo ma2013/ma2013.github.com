@@ -96,12 +96,12 @@ border-bottom: 1px solid rgb(124, 124, 124);
 {
   text-align: center;
   /*height: 370px;*/
-  height: 300px;
+  height: 350px;
   margin: 0;
   /*background: #eee;*/
   /*background: #eee;*/
   /*padding-bottom: 25px;*/
-  padding: 23px 0 0 0;
+  padding: 13px 0 0 0;
   overflow: hidden;
 }
 
@@ -323,7 +323,7 @@ li a
   /* Nav */
   header nav {
     float: right;
-    margin-top: 18px;
+    margin-top: 23px;
   }
 
   header nav li {
@@ -598,7 +598,7 @@ svg
 
   #maincontent
 {
-  padding: 1.2em 0;
+  /*padding: 1.2em 0;*/
 }
 
 .mb20
@@ -637,4 +637,9 @@ p
 font-weight: 300 !important;
 letter-spacing: .7px;
 /*display: none;*/
+}
+
+.bottom5
+{
+margin-bottom: 5px;
 }
