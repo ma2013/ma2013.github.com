@@ -536,12 +536,12 @@ height: 5px;
 .caption
 {
   text-align: center;
-  font-size: 18px;
+  font-size: 15px;
   padding-left: 20px;
   margin-bottom: 14px;
   color: #aaa;
   line-height: 28px;
-  letter-spacing: 1px;
+  letter-spacing: 0;
 }
 
 .headercaption
