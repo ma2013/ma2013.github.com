@@ -323,7 +323,7 @@ li a
   /* Nav */
   header nav {
     float: right;
-    margin-top: 23px;
+    margin-top: 19px;
   }
 
   header nav li {
@@ -619,7 +619,7 @@ margin-bottom: 20px;
 
 p a
 {
-  color: #aaa !important;
+  color: rgb(161,138,38) !important;
 }
 
 p a:hover
@@ -641,5 +641,21 @@ letter-spacing: .7px;
 
 .bottom5
 {
-margin-bottom: 5px;
+/*margin-bottom: 5px;*/
+}
+
+.readmore, .revert, .readmore2, .revert2
+{
+  cursor: hand; cursor: pointer;
+  color: rgb(161,138,38);
+  -webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+
+.readmore:hover, .revert:hover, .readmore2:hover, .revert2:hover
+{
+  color: white;
 }
