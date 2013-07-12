@@ -96,7 +96,7 @@ border-bottom: 1px solid rgb(124, 124, 124);
 {
   text-align: center;
   /*height: 370px;*/
-  height: 350px;
+  height: 330px;
   margin: 0;
   /*background: #eee;*/
   /*background: #eee;*/
@@ -200,7 +200,7 @@ li a
 
   nav a
   {
-    font-size: 19px;
+    font-size: 17px;
     /*margin-left: 30px;*/
     /*padding-left: 10px;*/
     text-decoration: none;
@@ -658,4 +658,9 @@ transition: all 0.3s ease;
 .readmore:hover, .revert:hover, .readmore2:hover, .revert2:hover
 {
   color: white;
+}
+
+.morris-hover.morris-default-style
+{
+  display: none !important;
 }
