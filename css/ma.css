@@ -664,3 +664,14 @@ transition: all 0.3s ease;
 {
   display: none !important;
 }
+
+.publications a
+{
+  text-decoration: none !important;
+}
+
+
+.margintop60
+{
+  /*margin-top: 60px;*/
+}
