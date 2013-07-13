@@ -668,6 +668,12 @@ transition: all 0.3s ease;
 .publications a
 {
   text-decoration: none !important;
+  margin-right: 3px;
+}
+
+.publications
+{
+    width: 100%;
 }
 
 
