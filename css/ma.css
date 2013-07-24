@@ -584,12 +584,15 @@ svg
 {
   width:100%;
   position:absolute;
-  /*bottom:0;*/
+  bottom:0;
+  /*margin-top: 255px;*/
+  /*margin-top: 70%;*/
   background:#444;
-  padding:10px 0 20px 0;
+  padding:13px 0 20px 0;
   color:#aaa;
   /*margin-bottom: 10px;*/
   opacity: .9;
+  z-index:2;
 }
 
 .slideshowimg
