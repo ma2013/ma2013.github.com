@@ -683,3 +683,17 @@ transition: all 0.3s ease;
 {
   /*margin-top: 60px;*/
 }
+
+
+.fadeslide
+{
+  width: 590px;
+  height:270px;
+}
+
+.slideimg
+{
+  width:590px;
+  height:270px;
+  position:relative;
+}
