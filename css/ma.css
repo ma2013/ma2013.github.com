@@ -584,21 +584,21 @@ svg
 {
   width:100%;
   position:absolute;
-  bottom:0;
-  /*margin-top: 255px;*/
-  /*margin-top: 70%;*/
+  /*bottom:10%;*/
+bottom: 0;
   background:#444;
   padding:13px 0 20px 0;
   color:#aaa;
-  /*margin-bottom: 10px;*/
   opacity: .9;
   z-index:2;
+  text-align: center;
+  line-height: 1.6em;
 }
 
 .slideshowimg
 {
   width: 100%;
-  height:100%;
+  /*height:100%;*/
   display: block;}
 
   #maincontent
@@ -690,13 +690,36 @@ transition: all 0.3s ease;
 
 .fadeslide
 {
-  width: 590px;
+  width: 100%;
+  /*width: 590px;*/
   height:270px;
 }
 
 .slideimg
 {
-  width:590px;
-  height:270px;
+  /*width: 100%;*/
+  /*width:590px;*/
+  /*height:270px;*/
   position:relative;
 }
+
+.homequote
+{
+font-size: 19px;
+line-height: 28px;
+color: #a18a26;
+}
+
+.slideimg img
+{
+  /*width: 100%;*/
+  width:590px;
+  /*height: 100%;*/
+}
+
+.item
+{
+  width: 100%;
+}
+
+.
