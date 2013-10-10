@@ -74,10 +74,6 @@
 
     <link rel="stylesheet" href="looper/css/looper.css">
 
-
-<link rel="stylesheet" href="css/superfish.css" media="screen">
-
-
   </head>
 
   <body class="indexpage">
@@ -92,7 +88,7 @@
             </div>
             <div class="col span_1_of_2">
               <nav>
-                <ul class="sf-menu" id="example">
+                <ul>
                   <li>
                     <a href="index.html">HOME</a>
                   </li>
@@ -100,39 +96,13 @@
                     <a href="about.html">WHO WE ARE</a>
                   </li>
                   <li>
-                    <a class="current" href="publications.html">PUBLICATIONS</a>
-
-                <ul>
-                      <li>
-
-                      <a class="current" href="mediaopeds.html">
-                        Media Op-Eds</a>
-                      </li>
-
-                      <li>
-                        <a class="current" href="publications.html">
-                        Publications</a>
-                      </li>
-                    </ul>
-
-
-
+                    <a href="publications.html">PUBLICATIONS</a>
                   </li>
                   <li>
                     <a href="contact.html">CONTACT US</a>
                   </li>
                 </ul>
               </nav>
-
-
-
-
-
-
-
-
-
-
             </div>
           </div>
         </header>
@@ -536,51 +506,6 @@ Morris.Bar({
   }
 });
 </script>
-
-
-<!-- dropdown -->
-
-    <script src="js/hoverIntent.js"></script>
-    <script src="js/superfish.js"></script>
-    <script>
-
-    (function($){ //create closure so we can safely use $ as alias for jQuery
-
-      $(document).ready(function(){
-
-        // initialise plugin
-        var example = $('#example').superfish({
-          //add options here if required
-        });
-
-        // buttons to demonstrate Superfish's public methods
-        $('.destroy').on('click', function(){
-          example.superfish('destroy');
-        });
-
-        $('.init').on('click', function(){
-          example.superfish();
-        });
-
-        $('.open').on('click', function(){
-          example.children('li:first').superfish('show');
-        });
-
-        $('.close').on('click', function(){
-          example.children('li:first').superfish('hide');
-        });
-      });
-
-    })(jQuery);
-
-
-    </script>
-
-
-<!-- dropdown -->
-
-
-
 
 
 </body>
