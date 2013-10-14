@@ -26,6 +26,16 @@
 	display: block;
 	position: relative;
 }
+
+
+.sf-menu a.footerdrop {
+	display: inline;
+	position: relative;
+	background: #333;
+	padding: 5px;
+}
+
+
 .sf-menu ul ul {
 	top: 0;
 	left: 100%;
