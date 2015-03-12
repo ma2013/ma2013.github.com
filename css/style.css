@@ -1,5 +1,9 @@
-body{font-family: "brandon-grotesque",sans-serif !important;}
+body{font-family: "brandon-grotesque",sans-serif !important;
+color: #007dc3 !important;
+}
 
 p{font-family: "brandon-grotesque",sans-serif !important;
 font-size: 20px;
-line-height: 36px;}
+line-height: 36px;
+color: #007dc3 !important;
+}
