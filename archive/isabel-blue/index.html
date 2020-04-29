@@ -18,31 +18,17 @@
 <style>
 
 
-  body{background:#61846d;}
+  body{background:#dbffe7;}
 </style>
 
     </head>
-    <body class="heh">
+    <body class="heh" style="margin:0;">
 
 
-      <div class="pamela" id="a1" style="display:none;">
-<div style="text-align:center;color:white;background:#79e5ff;"><strong><h1><i>pamela santiago</i></h1></strong>
-<i><span style="font-size:10px;">December, 2015</span></i>
-<br><br> <i>vibrant flo</i>
 
-<br><br>
-
-<img src="img/p.jpg" alt="1" style="margin: 0 auto;">
-
-</div>
-
-
-</div>
-
-
-<div class="isabel" id="a2" style="display:none;">
-
-<div style="text-align:center;color:white;background:#dbffe7;"><strong><h1><i>isabel blue</i></h1></strong>
+<div class="isabel" id="a2">
+<br>
+<div style="text-align:center;color:black;background:#dbffe7;"><strong><h1><i>isabel blue</i></h1></strong>
 <i><span style="font-size:10px;">December, 2015</span></i>
 <br><br> <i>hand opal</i>
 
@@ -62,93 +48,9 @@
 
 </div>
 
-<div class="lauren" id="a3" style="display:none;">
-
-<div style="text-align:center;color:white;background:#ff7979;"><strong><h1><i>lauren rodriguez</i></h1></strong>
-<i><span style="font-size:10px;">December, 2015</span></i>
-<br><br> <i>flashed corral signature</i>
-
-<br><br>
-
-<img src="img/l1.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l2.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l3.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l4.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l5.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l6.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l7.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l8.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l9.jpg" alt="1" style="margin: 0 auto;">
-<img src="img/l10.jpg" alt="1" style="margin: 0 auto;">
-</div>
-
-
-</div>
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
 
 
 
-
-
-$(document).ready(function(){
-
-
-
-  if(window.location.hash){
-
-
-
-
-var nir = window.location.hash;
-
-
-var dirrr = nir.substring(1);
-
-
-console.log(dirrr);
-
-
-
-$('.'+ dirrr).css('display', 'block');
-
-
-window.location.hash = '';
-
-
-}else{
-
-
-
-
-
-
-function getRandomArbitrary(min, max) {
-    return Math.random() * (max - min) + min;
-}
-
-var cleick = getRandomArbitrary(1,3);
-
-
-var let = Math.round(cleick);
-
-
-
-var kee = $('#a' + let);
-
-kee.css('display', 'block');
-
-window.location.hash = kee.attr('class');
-
-
-}
-
-});
-
-
-</script>
 
 
 
